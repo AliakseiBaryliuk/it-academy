@@ -1,38 +1,38 @@
-# it-academy
-
-```
-
-```
-[JVM Specification](https://docs.oracle.com/javase/specs/jvms/se7/html/)
+## Bytecode
 
 This is a disassembled representation of a Java class file named "HelloWorld.class," which was compiled from the source file "HelloWorld.java." Let's break down the information provided:
 
-File Information:
+### File Information:
 
 Last Modified: Sep 18, 2023
 Size: 454 bytes
 SHA-256 Checksum: c11e83221d5d44ac35ca75e5595c4b1601075cbb3f41ffe0f78743980d70522a
-Class Declaration:
+
+### Class Declaration:
 
 The class is named by.itacademy.brest.classone.HelloWorld.
 It has a minor version of 0 and a major version of 61.
 The class has two flags: ACC_PUBLIC and ACC_SUPER.
 It extends the java.lang.Object class.
 There are no implemented interfaces, fields, and only two methods.
-Constant Pool:
+
+### Constant Pool:
 
 The constant pool contains a list of symbolic references, such as method names, field names, and string literals, used throughout the class.
-Methods:
+
+### Methods:
 
 The class contains two methods:
 public by.itacademy.brest.classone.HelloWorld(): A constructor with no arguments. It invokes the constructor of the java.lang.Object class.
 public static void main(java.lang.String[]): The main method, which is the entry point for the Java application. It prints "Hello world!" to the standard output.
-Method Details:
+
+### Method Details:
 
 Both methods have descriptors that specify their arguments and return types.
 The main method is marked as ACC_PUBLIC and ACC_STATIC, indicating that it can be accessed from outside the class and does not require an instance of the class to be called.
 The Code section within each method contains bytecode instructions that implement the method's functionality.
-LineNumberTable:
+
+### LineNumberTable:
 
 The LineNumberTable section provides information about the source code line numbers associated with each bytecode instruction.
 Source File:
