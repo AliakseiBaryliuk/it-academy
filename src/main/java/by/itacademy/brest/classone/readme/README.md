@@ -5,6 +5,8 @@
 ```
 [History](history.md)
 
+[Java anatomy](java_anatomy.png)
+
 
 [JVM Specification](https://docs.oracle.com/javase/specs/jvms/se7/html/)
 
