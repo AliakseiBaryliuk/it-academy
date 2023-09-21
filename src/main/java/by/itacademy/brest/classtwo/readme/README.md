@@ -2,6 +2,8 @@
 
 [Presentation](presentation.pptx)
 
+[Info](info.md)
+
 ![Stack](img_2.png)
 
 [ASCII and UNICODE](https://habr.com/ru/companies/vk/articles/547084/)
