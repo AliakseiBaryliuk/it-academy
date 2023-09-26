@@ -10,7 +10,7 @@ SHA-256 Checksum: c11e83221d5d44ac35ca75e5595c4b1601075cbb3f41ffe0f78743980d7052
 
 ### Class Declaration:
 
-The class is named by.itacademy.brest.classone.HelloWorld.
+The class is named by.itacademy.brest.class1.HelloWorld.
 It has a minor version of 0 and a major version of 61.
 The class has two flags: ACC_PUBLIC and ACC_SUPER.
 It extends the java.lang.Object class.
@@ -23,7 +23,7 @@ The constant pool contains a list of symbolic references, such as method names, 
 ### Methods:
 
 The class contains two methods:
-public by.itacademy.brest.classone.HelloWorld(): A constructor with no arguments. It invokes the constructor of the java.lang.Object class.
+public by.itacademy.brest.class1.HelloWorld(): A constructor with no arguments. It invokes the constructor of the java.lang.Object class.
 public static void main(java.lang.String[]): The main method, which is the entry point for the Java application. It prints "Hello world!" to the standard output.
 
 ### Method Details:
@@ -45,7 +45,7 @@ In summary, this Java class is a simple "Hello World" program with a main method
 
 The "Code" section within a Java class file contains the bytecode instructions that implement the functionality of a method. Bytecode is a low-level representation of Java source code that can be executed by the Java Virtual Machine (JVM). Let's dive into the details of the "Code" section for the methods in the provided Java class:
 
-Constructor Method (public by.itacademy.brest.classone.HelloWorld()):
+Constructor Method (public by.itacademy.brest.class1.HelloWorld()):
 
 Descriptor: descriptor: ()V (No arguments, returns void).
 Flags: flags: (0x0001) ACC_PUBLIC (Public access).

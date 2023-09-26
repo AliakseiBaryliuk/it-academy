@@ -1,4 +1,4 @@
-package by.itacademy.brest.classone;
+package by.itacademy.brest.class1;
 
 public class SumTestBytecode {
 

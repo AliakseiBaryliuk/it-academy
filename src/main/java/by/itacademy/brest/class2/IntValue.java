@@ -1,4 +1,4 @@
-package by.itacademy.brest.classtwo;
+package by.itacademy.brest.class2;
 
 public class IntValue {
     public static void main(String[] args) {
