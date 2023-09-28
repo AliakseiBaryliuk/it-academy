@@ -8,7 +8,7 @@ public class SwitchExpressions {
 
         int a = scanner.nextInt();
 
-        String str = switch (a){
+        String str = switch (a) {
             case 4, 6, 8 -> "<= 10";
             case 10, 12 -> ">= 10";
             case 100 -> {

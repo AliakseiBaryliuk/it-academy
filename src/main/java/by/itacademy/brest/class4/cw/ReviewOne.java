@@ -21,19 +21,20 @@ public class ReviewOne {
 
         int sum = a + b + c;
         // (switch) если это число 4 вывести "4", если 5 то "5" default "Not appropriate"
-        switch (sum){
+        switch (sum) {
             case 4 -> System.out.println("4");
             case 5 -> System.out.println("5");
             default -> System.out.println("Not appropriate");
         }
-        /* вычесть sum из sourceNumber и если остаток от деления на 100 больше 10,
-            то выводим "Remainder > 10" иначе "Remainder < 10"
+        /*
+        вычесть sum из sourceNumber и если остаток от деления на 100 больше 10,
+        то выводим "Remainder > 10" иначе "Remainder < 10"
         */
 
         i = sourceNumber - sum;
         int i1 = i % 100;
 
-        if (i1 > 10){
+        if (i1 > 10) {
             System.out.println("Remainder > 10");
         } else {
             System.out.println("Remainder < 10");
