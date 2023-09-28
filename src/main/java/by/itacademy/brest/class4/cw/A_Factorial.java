@@ -2,7 +2,7 @@ package by.itacademy.brest.class4.cw;
 
 import java.util.Scanner;
 
-public class Factorial {
+public class A_Factorial {
     public static void main(String[] args) {
         /*
         Факториал числа:

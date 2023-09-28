@@ -1,6 +1,6 @@
 package by.itacademy.brest.class4.cw;
 
-public class PrimeNumbers {
+public class D_PrimeNumbers {
     public static void main(String[] args) {
         int n = 50; // Максимальное число для поиска простых чисел
         int number = 2; // Начинаем с первого простого числа

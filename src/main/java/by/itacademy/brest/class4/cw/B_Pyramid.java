@@ -2,7 +2,7 @@ package by.itacademy.brest.class4.cw;
 
 import java.util.Scanner;
 
-public class Pyramid {
+public class B_Pyramid {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите высоту пирамиды: ");

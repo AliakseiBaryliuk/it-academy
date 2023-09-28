@@ -2,7 +2,7 @@ package by.itacademy.brest.class4.cw;
 
 import java.util.Scanner;
 
-public class ReverseNumber {
+public class C_ReverseNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");

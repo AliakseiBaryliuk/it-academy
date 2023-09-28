@@ -2,7 +2,7 @@ package by.itacademy.brest.class4.cw;
 
 import java.util.Scanner;
 
-public class CurrencyFormatter {
+public class E_CurrencyFormatter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
