@@ -13,15 +13,20 @@ public class ReviewOne {
         int i = sourceNumber / 100;
 
         // найти сумму всех чисел этого числа
-        int a = i % 10;
-        i /= 10;
-        int b = i % 10;
-        i /= 10;
-        int c = i % 10;
+//        int a = i % 10;
+//        i /= 10;
+//        int b = i % 10;
+//        i /= 10;
+//        int c = i % 10;
 
-        int sum = a + b + c;
+        int sum1 = 0;
+        for (int j = 0; j < 3; j++) {
+            sum1 += i % 10;
+            i /= 10;
+        }
+//        int sum = a + b + c;
         // (switch) если это число 4 вывести "4", если 5 то "5" default "Not appropriate"
-        switch (sum) {
+        switch (sum1) {
             case 4 -> System.out.println("4");
             case 5 -> System.out.println("5");
             default -> System.out.println("Not appropriate");
@@ -31,7 +36,7 @@ public class ReviewOne {
         то выводим "Remainder > 10" иначе "Remainder < 10"
         */
 
-        i = sourceNumber - sum;
+        i = sourceNumber - sum1;
         int i1 = i % 100;
 
         if (i1 > 10) {
