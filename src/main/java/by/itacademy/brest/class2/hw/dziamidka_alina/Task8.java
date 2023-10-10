@@ -9,5 +9,4 @@ public class Task8 {
         System.out.println("Исходное число равно " + c);
     }
 }
-//score
-//9
+// empty line for better readability

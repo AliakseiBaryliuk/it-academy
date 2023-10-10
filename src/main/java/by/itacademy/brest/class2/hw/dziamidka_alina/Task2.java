@@ -9,5 +9,3 @@ public class Task2 {
         System.out.println("Cумма цифр ab + cd числа abcd, где число abcd - " + abcd + " = " + (ab + cd));
     }
 }
-//score
-//9
