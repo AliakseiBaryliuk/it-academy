@@ -2,5 +2,7 @@
 
 [String pool](https://www.baeldung.com/java-string-pool)
 
-![JMM metaspace](img.png)
+[RegEx](https://javarush.com/groups/posts/regulyarnye-vyrazheniya-v-java)
+
+
 ctrl + shift + a -> Mouse: scroll
