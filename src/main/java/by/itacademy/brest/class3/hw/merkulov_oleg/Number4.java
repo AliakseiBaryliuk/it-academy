@@ -1,3 +1,5 @@
+package by.itacademy.brest.class3.hw.merkulov_oleg;
+
 import java.util.Scanner;
 
 public class Number4 {
