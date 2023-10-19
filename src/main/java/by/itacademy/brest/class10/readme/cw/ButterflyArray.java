@@ -2,7 +2,7 @@ package by.itacademy.brest.class10.readme.cw;
 
 public class ButterflyArray {
     public static void main(String[] args) {
-        int n = 5; // Размер массива (нечетное число)
+        int n = 5;
         int[][] butterfly = new int[n][n];
 
         for (int i = 0; i < n; i++) {
@@ -23,4 +23,10 @@ public class ButterflyArray {
         }
     }
 }
-
+/*
+11111
+01110
+00100
+01110
+11111
+ */
