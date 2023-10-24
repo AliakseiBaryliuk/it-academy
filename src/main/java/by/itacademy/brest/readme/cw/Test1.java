@@ -1,4 +1,4 @@
-package by.itacademy.brest.class10.readme.cw;
+package by.itacademy.brest.readme.cw;
 
 import java.util.Random;
 

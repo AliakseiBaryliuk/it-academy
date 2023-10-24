@@ -1,4 +1,4 @@
-package by.itacademy.brest.class10.readme.cw.person;
+package by.itacademy.brest.class10.cw.person;
 
 public class Person {
     private String name;

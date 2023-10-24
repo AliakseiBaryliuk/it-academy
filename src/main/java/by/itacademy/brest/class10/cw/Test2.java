@@ -1,4 +1,4 @@
-package by.itacademy.brest.class10.readme.cw;
+package by.itacademy.brest.class10.cw;
 
 import java.util.Scanner;
 

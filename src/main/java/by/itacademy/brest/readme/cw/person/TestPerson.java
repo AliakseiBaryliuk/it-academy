@@ -1,4 +1,4 @@
-package by.itacademy.brest.class10.readme.cw.person;
+package by.itacademy.brest.readme.cw.person;
 
 public class TestPerson {
     public static void main(String[] args) {
