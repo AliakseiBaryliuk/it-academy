@@ -73,5 +73,15 @@ https://www.baeldung.com/java-copy-on-write-arraylist
 
 [O(n)](O_n.docx)
 
+Equals
+
+Java SE defines the contract that our implementation of the equals() method must fulfill. 
+Most of the criteria are common sense. The equals() method must be:
+
+- reflexive: an object must equal itself
+- symmetric: x.equals(y) must return the same result as y.equals(x)
+- transitive: if x.equals(y) and y.equals(z), then also x.equals(z)
+- consistent: the value of equals() should change only if a property that is contained in equals() changes (no randomness allowed)
+
 
 ctrl + shift + a -> Mouse: scroll
