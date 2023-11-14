@@ -1,4 +1,4 @@
-package by.itacademy.brest.class15.cw.thread;
+package by.itacademy.brest.class16.cw.wait;
 
 public class Store {
     private int product;

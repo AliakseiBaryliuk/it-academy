@@ -19,10 +19,10 @@ public class InputStreamOne {
 
             stream = initStream(path);
 //            readFullyByByte(stream);
-//            readFullyByByteWithBuffer(stream);
+            readFullyByByteWithBuffer(stream);
 //            readFullyByByteWithBuffer2(stream);
-            readAndWriteFullyByByteWithBuffer(stream, path);
-            Reader reader = initReader(path);
+//            readAndWriteFullyByByteWithBuffer(stream, path);
+//            Reader reader = initReader(path);
 //            readFullyByByteWithBuffer2(reader);
 
         } catch (FileNotFoundException e) {
@@ -92,10 +92,11 @@ public class InputStreamOne {
     }
 
     public static void readFullyByByteWithBuffer(InputStream stream) throws IOException {
+        InputStream buf = new BufferedInputStream(stream, 11);
         byte[] buff = new byte[5];
 
         while (true) {
-            int read = stream.read(buff);
+            int read = buf.read(buff);
             if (read != -1) {
                 System.out.println("str = " + new String(buff, 0, read));
             } else {
@@ -121,8 +122,8 @@ public class InputStreamOne {
 
     public static InputStream initStream(Path path) throws IOException {
         InputStream stream;
-//        stream = new FileInputStream(path.toFile());
-        stream = new URL("https://www.google.com/").openStream();
+        stream = new FileInputStream(path.toFile());
+//        stream = new URL("https://www.google.com/").openStream();
 //        stream = new ByteArrayInputStream(new byte[]{65, 55});
         return stream;
     }

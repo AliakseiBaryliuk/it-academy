@@ -1,6 +1,4 @@
-package by.itacademy.brest.class15.cw.thread;
-
-import java.io.ByteArrayInputStream;
+package by.itacademy.brest.class16.cw.wait;
 
 public class Producer implements Runnable{
     private Store store;
