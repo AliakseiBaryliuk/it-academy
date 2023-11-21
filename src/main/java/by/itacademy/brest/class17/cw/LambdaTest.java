@@ -1,5 +1,9 @@
 package by.itacademy.brest.class17.cw;
 
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Stream;
+
 public class LambdaTest {
     public static void main(String[] args) {
         //локальная переменная должна быть неизменна - "final"
@@ -25,6 +29,7 @@ public class LambdaTest {
         };
 
         System.out.println(func.apply(2, 2));
-    }
 
+
+    }
 }
